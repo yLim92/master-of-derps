@@ -32,6 +32,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :production do
+  gem 'pg'
+end
+
 gem 'bootstrap-sass', '~> 3.3.5'
 
 gem 'react-rails', '~> 1.0'
